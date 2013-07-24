@@ -1,0 +1,5 @@
+*.root
+*.pdf
+.DS_*
+*.tar.gz
+*.png
