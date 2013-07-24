@@ -252,7 +252,7 @@ doTheFit(){
     
 #if !defined(isMC)
         chain->Add(theWorkingDir+"TnP_CLtree_electrons_runA.root");
-    /*    chain->Add(theWorkingDir+"TnP_CLtree_electrons_runB_part0_div0.root");
+        chain->Add(theWorkingDir+"TnP_CLtree_electrons_runB_part0_div0.root");
         chain->Add(theWorkingDir+"TnP_CLtree_electrons_runB_part0_div1.root");
         chain->Add(theWorkingDir+"TnP_CLtree_electrons_runB_part1.root");
 
@@ -264,12 +264,12 @@ doTheFit(){
 
         chain->Add(theWorkingDir+"TnP_CLtree_electrons_runD_part1.root");
         chain->Add(theWorkingDir+"TnP_CLtree_electrons_runD_part2.root");
-        chain->Add(theWorkingDir+"TnP_CLtree_electrons_runD_part3.root");*/
+        chain->Add(theWorkingDir+"TnP_CLtree_electrons_runD_part3.root");
     
 #else
     chain->Add(theWorkingDir+"TnP_CLtree_DYJet_ter_part1.root");
-    //chain->Add(theWorkingDir+"TnP_CLtree_DYJet_ter_part2.root");
-    //chain->Add(theWorkingDir+"TnP_CLtree_DYJet_ter_part3.root");
+    chain->Add(theWorkingDir+"TnP_CLtree_DYJet_ter_part2.root");
+    chain->Add(theWorkingDir+"TnP_CLtree_DYJet_ter_part3.root");
 #endif
     
     //workspace with the signal model
